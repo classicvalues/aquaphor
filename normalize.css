@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  width: 100%;
+  max-width: 1440px;
+  height:670px;
+  background: pink;
+  display: flex;
+  margin: 50px 0 0 50px;
+}
+
+.block-left__waterboss {
+  position: relative;
+  height: 100%;
+  width: 360px;
+  display: flex;
+  align-items:center;
+  background: #164cb5;
+}
+.block-left__waterboss_about {
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.block-left__waterboss_name {
+  color: white;
+  font-family: Proxima Nova Rg;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.block-left__waterboss_price {
+  font-family: Proxima Nova Rg;
+  font-size: 22px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.block-left__waterboss_leader {
+  color: #99ccff;
+  position:absolute;
+  font-family: Proxima Nova Rg;
+  right: 2px;
+  top: 20%;
+  writing-mode: tb-rl;
+  transform:rotate(180deg);
+  font-size:60px;
+}
+.block-left__waterboss_photo {
+  width: 360px;
+  height: 335px;
+  display: flex;
+  align-items: center;
+}
+
+
+.block-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block-right__title{
+  font-family: Proxima Nova Rg;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.block-right__wrap{
+  width: 360px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block-right__about{
+  position: absolute;
+  bottom: 25px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.block-right__tableted-salt {
+  position: relative;
+  height: 335px;
+  width: 360px;
+  background: white;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.block-right__wrap_tableted-salt_wrap{}
+.block-right__tableted-salt_photo{
+  width: 168px;
+  height: 168px;
+}
+.block-right__about_tableted-salt_about{}
+.block-right__title_tableted-salt_name {
+  color: #28293c;
+}
+.block-right__title_tableted-salt_price {
+  color: #28293c;
+}
+
+.block-right__A-800 {
+  position: relative;
+  height: 335px;
+  width: 360px;
+  background: #f1f6ff;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.block-right__wrap_A-800_wrap{}
+.block-right__A-800_photo{
+  width: 168px;
+  height: 168px;
+}
+.block-right__about_A-800_about{}
+.block-right__title_A-800_name {
+  color: #28293c;
+}
+.block-right__title_A-800_price {
+  color: #28293c;
+}
+
+.block-right__trio-norm {
+  height: 335px;
+  width: 360px;
+  background: #164cb5;
+  position: relative;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.block-right__wrap_trio-norm_wrap{}
+.trio_norm__photo{
+  width: 168px;
+  height: 168px;
+}
+.block-right__about_trio-norm_about{}
+.block-right__title_trio-norm_name {}
+.block-right__title_trio-norm_price{}
+
+
+.block-right__crystal {
+  height: 335px;
+  width: 360px;
+  background: #f1f6ff;
+  position: relative;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.block-right__wrap_crystal_wrap{}
+.crystal__photo{
+  width: 168px;
+  height: 168px;
+}
+.block-right__about_crystal_about {}
+.block-right__title_crystal_name {
+  color: black;
+}
+.block-right__title_crystal_price{
+  color: black;
+}
+
+.block-right__DWM-101S {
+  height: 335px;
+  width: 720px;
+  background: #ec8928;
+  position: relative;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.block-right__wrap_DWM-101S_wrap {
+  width: 720px;
+  height: 168px;
+}
+.DWM_101S__photo{
+  width: 168px;
+  height: 168px;
+}
+.block-right__about_DWM-101S_about{}
+.block-right__title_DWM-101S_name {}
+.block-right__title_DWM-101S_price {}
